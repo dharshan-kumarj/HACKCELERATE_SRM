@@ -30,11 +30,11 @@ function App() {
 
           <div className="flex flex-col items-center space-y-4">
             <img src={clublogo} alt="Developer Students Club" className="w-2/4" />
-            <p className="text-center text-white text-xl mt-4">
-              Join Our Community to Get Further Updates
+            <p className="text-center font-bricolage text-white text-lg mt-4">
+              Join Our Community to Get <br></br>Further Updates
             </p>
-            <button className= "text-red-500 rounded-full px-6 py-2 mt-4 flex items-center">
-              <span>JOIN DASHBOARD</span>
+            <button className="flex items-center bg-transparent border border-white rounded-full px-4 py-2">
+              <span className='font-semibold text-white text-xs font-bricolage'>JOIN DASHBOARD</span>
               <img src={joindashboard} alt="Join" className="w-6 h-6 ml-2" />
             </button>
           </div>
