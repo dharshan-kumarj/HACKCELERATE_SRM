@@ -40,17 +40,17 @@ function App() {
           </div>
 
         
-          <div className="flex flex-col items-end">
-            <div className="text-right">
-            <img src={site} alt="Developer Students Club" className="w-32 h-20" />
-              <nav className="flex flex-col space-y-2">
-                <a href="#" className="text-white text-2xl text-left hover:underline">Home</a>
-                <a href="#" className="text-white text-2xl text-left hover:underline">About</a>
-                <a href="#" className="text-white text-2xl text-left hover:underline">Timeline</a>
-                <a href="#" className="text-white text-2xl text-left hover:underline">Tracks</a>
-                <a href="#" className="text-white text-2xl text-left hover:underline">Prizes</a>
-                <a href="#" className="text-white text-2xl text-left hover:underline">Partners</a>
-                <a href="#" className="text-white text-2xl text-left hover:underline">Faq</a>
+          <div className="flex flex-col items-center">
+            <div className="text-left">
+              <img src={site} alt="Developer Students Club" className="w-32 h-20 mb-[-19px]" /> {/* Added mb-[-10px] to reduce space */}
+              <nav className="flex flex-col items-center">  {/* Removed pb-2 */}
+                <a href="#" className="font-bricolag text-white text-lg text-left hover:underline">Home</a>
+                <a href="#" className="font-bricolag text-white text-lg text-left hover:underline">About</a>
+                <a href="#" className="font-bricolag text-white text-lg text-left hover:underline">Timeline</a>
+                <a href="#" className="font-bricolag text-white text-lg text-left hover:underline">Tracks</a>
+                <a href="#" className="font-bricolag text-white text-lg text-left hover:underline">Prizes</a>
+                <a href="#" className="font-bricolag text-white text-lg text-left hover:underline">Partners</a>
+                <a href="#" className="font-bricolag text-white pb-2 text-lg text-left hover:underline">Faq</a>
               </nav>
             </div>
           </div>
